@@ -56,10 +56,10 @@ const posts = [
 ];
 const Posts = () => {
   return (
-    <div className="mx-auto  flex flex-col  sm:grid  gap-2 sm:mt-20  lg:grid-cols-4">
+    <div className="mx-auto  flex flex-col  sm:grid  md:gap-2 gap-1 sm:mt-20  lg:grid-cols-4">
       <article
         key={posts[0].id}
-        className="relative isolate h-[25rem] sm:h-[25rem]  lg:h-[30rem] flex flex-col justify-end overflow-hidden bg-gray-900  pb-8 pt-80 sm:pt-48 lg:pt-80"
+        className="relative isolate h-[35rem] sm:h-[25rem]  lg:h-[30rem] flex flex-col justify-end overflow-hidden bg-gray-900  pb-8 pt-80 sm:pt-48 lg:pt-80"
       >
         <img
           src={posts[0].imageUrl}
@@ -113,7 +113,7 @@ const Posts = () => {
       </article>
       <article
         key={posts[1].id}
-        className="relative isolate h-[25rem] sm:h-[25rem]  lg:h-[30rem] flex flex-col justify-end overflow-hidden bg-gray-900  pb-8 pt-80 sm:pt-48 lg:pt-80"
+        className="relative isolate h-[35rem] sm:h-[25rem]  lg:h-[30rem] flex flex-col justify-end overflow-hidden bg-gray-900  pb-8 pt-80 sm:pt-48 lg:pt-80"
       >
         <img
           src={posts[1].imageUrl}
@@ -165,7 +165,7 @@ const Posts = () => {
       </article>
       <article
         key={posts[2].id}
-        className="relative isolate h-[25rem] sm:h-[20rem]  lg:h-[30rem] flex flex-col col-span-2 justify-end overflow-hidden bg-gray-900  pb-8 pt-80 sm:pt-48 lg:pt-80"
+        className="relative isolate h-[35rem] sm:h-[20rem]  lg:h-[30rem] flex flex-col col-span-2 justify-end overflow-hidden bg-gray-900  pb-8 pt-80 sm:pt-48 lg:pt-80"
       >
         <img
           src={posts[2].imageUrl}

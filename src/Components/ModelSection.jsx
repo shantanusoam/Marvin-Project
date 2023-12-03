@@ -56,13 +56,13 @@ export default function ModelSection() {
   return (
     <div className="">
       <div className="mx-auto  px-6 lg:px-8">
-        <div className="lg:grid flex w-full mb-5 lg:grid-cols-9">
+        <div className="lg:grid flex w-full mb-5 md:mt-0 mt-6 lg:grid-cols-9">
           <div className="2xl:col-span-5 xl:col-span-6 lg:col-span-7 flex flex-col lg:justify-start justify-center lg:items-start items-center col-span-8">
             <div className="  sm:flex ">
               <div className="text-thin text-2xl mb-6">Revolutionize Your</div>
             </div>
             <div>
-              <div className="leading-relaxed  lg:mt-24 xl:text-5xl lg:text-4xl text-3xl lg:inline  text-center lg:text-start font-mono font-extrabold tracking-tight text-gray-900   relative rounded-full py-1  w-full">
+              <div className="leading-relaxed sm:mb-8 mb-6 lg:mt-24 xl:text-5xl lg:text-4xl text-3xl lg:inline  text-center lg:text-start font-mono font-extrabold tracking-tight text-gray-900   relative rounded-full py-1  w-full">
                 Creative Projects with the Ultimate AI-Powered Patterns
                 <span className="lg:inline flex flex-col items-center">
                   <div className="rounded-full  lg:my-0 my-6 lg:inline  xl:px-10 lg:px-6 cursor-pointer bg-black text-white mx-10 xl:py-4 lg:py-2 text-lg lg:text-xl xl:text-2xl">
